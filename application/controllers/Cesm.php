@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Esm_controller extends CI_Controller {
+class Cesm extends CI_Controller {
 
 	public function index()
 	{
