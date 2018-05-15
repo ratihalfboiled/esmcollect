@@ -63,7 +63,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo base_url()."index.php/Cesm/sentraumkm/"?>">
                         <i class="ti-view-list-alt"></i>
                         <p>Sentra UMKM</p>
                     </a>

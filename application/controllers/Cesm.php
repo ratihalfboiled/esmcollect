@@ -7,4 +7,12 @@ class Cesm extends CI_Controller {
 	{
 		$this->load->view('v_dashboard');
 	}
+	
+	public function penjualan(){
+		$this->load->view('v_penjualan');
+	}
+	
+	public function sentraumkm(){
+		$this->load->view('v_umkm');
+	}
 }
