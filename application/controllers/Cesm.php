@@ -13,6 +13,8 @@ class Cesm extends CI_Controller {
 	}
 	
 	public function sentraumkm(){
-		$this->load->view('v_umkm');
+		$data = $this->esmModel->readukm();
+		$this->load->view('v_umkm', array('data'=>$data));
+		
 	}
 }

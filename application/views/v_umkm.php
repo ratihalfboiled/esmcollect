@@ -178,7 +178,14 @@
                                     	<th>Kontak</th>
                                     </thead>
                                     <tbody>
-                                        
+                                        <?php foreach ($data as $d) { ?>
+										<tr> 
+											<td> <?php echo $d['ukm_id'] ?> </td>
+											<td> <?php echo $d['nama_ukm'] ?> </td>
+											<td> <?php echo $d['alamat'] ?> </td>
+											<td> <?php echo $d['kontak'] ?> </td>
+										</tr>
+										<?php } ?>
                                     </tbody>
                                 </table>
 
