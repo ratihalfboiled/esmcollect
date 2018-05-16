@@ -162,7 +162,30 @@
 
         <div class="content">
             <div class="container-fluid">
-               
+               <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Striped Table</h4>
+                                <p class="category">Here is a subtitle for this table</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>ID</th>
+                                    	<th>Nama UMKM</th>
+                                    	<th>Alamat</th>
+                                    	<th>Kontak</th>
+                                    </thead>
+                                    <tbody>
+                                        
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+				</div>
             </div>
         </div>
 
